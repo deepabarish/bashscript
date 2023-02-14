@@ -35,3 +35,16 @@ echo Entered name : $name
 echo Enter the names
 read name1 name2 name3
 echo Entered names : $name1 , $name2 , $name3
+
+
+
+#entering input in the same line and password
+
+
+read -p 'username : ' user_var
+read -sp 'password : ' pass_var
+echo
+echo "Username : $user_var"
+echo "Password : $pass_var"
+
+
