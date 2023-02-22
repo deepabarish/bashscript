@@ -36,3 +36,5 @@ then
 else
 	echo "$num isn't valid"
 fi
+echo $num
+echo "$num"
