@@ -1,4 +1,4 @@
-#! /bin/bash
+#! /bin/bash 
 
 # Case Statement Syntax
 : '
@@ -24,4 +24,3 @@ case $vehicle in
 	* )
 		echo "Unknown vehicle " ;;
 esac
-
